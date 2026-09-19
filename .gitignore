@@ -1,0 +1,53 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ========================
+# Data files
+# ========================
+data/raw/
+data/warehouse/
+data/export/
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# ========================
+# Power BI
+# ========================
+powerbi/*.pbix
+
+# ========================
+# Airflow
+# ========================
+airflow/logs/
+
+# ========================
+# dbt
+# ========================
+transform/target/
+transform/dbt_packages/
+transform/logs/
+
+# ========================
+# Misc & Scratch
+# ========================
+.env
+*.log
+.scratch/
+
+# ========================
+# Agent files & Local Docs
+# ========================
+.agents/
+skills-lock.json
+skill-lock.json
+AGENTS.md
+CONTEXT.md
+docs/
+
